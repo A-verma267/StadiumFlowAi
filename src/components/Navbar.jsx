@@ -66,9 +66,8 @@ export default function Navbar() {
 
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 sm:gap-3 group flex-shrink-0">
-            <div className="relative w-8 h-8 sm:w-9 sm:h-9">
-              <div className="absolute inset-0 bg-gradient-to-br from-cyan-400 to-purple-600 rounded-lg animate-pulse-neon" />
-              <div className="relative flex items-center justify-center h-full text-sm sm:text-lg font-bold text-white font-orbitron">SF</div>
+            <div className="relative w-8 h-8 sm:w-10 sm:h-10">
+              <img src="/logo.png" alt="" />
             </div>
             <div>
               <span className="font-orbitron font-bold text-xs sm:text-sm gradient-text tracking-wider block">
