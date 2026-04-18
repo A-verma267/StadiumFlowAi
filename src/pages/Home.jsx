@@ -318,7 +318,7 @@ export default function Home() {
         <div className="relative max-w-5xl mx-auto">
           <motion.div initial={{ opacity: 0, scale: 0.96 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }}
             className="glass-strong rounded-3xl p-6 sm:p-10 border border-white/5">
-            <div className="grid lg:grid-cols-2 gap-8 items-center">
+            <div className="lg:grid lg:grid-cols-2 gap-8 items-center">
               <div>
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full mb-5"
                   style={{ background: 'rgba(239,68,68,0.1)', border: '1px solid rgba(239,68,68,0.25)' }}>
